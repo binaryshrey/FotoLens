@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".IntroFragment">
+
+        <ImageView
+            android:id="@+id/bgImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/bgimageview"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fotolens"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/getStartedButton"
+            android:layout_width="@dimen/dimen_0"
+            android:layout_height="@dimen/dimen_56"
+            android:layout_marginStart="@dimen/dimen_40"
+            android:layout_marginEnd="@dimen/dimen_40"
+            android:layout_marginBottom="@dimen/dimen_24"
+            android:backgroundTint="@color/yellow_700"
+            android:fontFamily="@font/open_sans_semibold"
+            android:text="@string/get_started"
+            app:cornerRadius="32dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/titleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_40"
+            android:layout_marginTop="@dimen/dimen_24"
+            android:fontFamily="@font/open_sans_semibold_italic"
+            android:text="@string/fotolens"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimen_24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bgImageView" />
+
+        <TextView
+            android:id="@+id/tagLineTV"
+            android:layout_width="@dimen/dimen_0"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_40"
+            android:layout_marginTop="@dimen/dimen_8"
+            android:layout_marginEnd="@dimen/dimen_16"
+            android:alpha="0.6"
+            android:text="@string/an_app_to_demonstrate_the_process_of_cropping_and_image_obtained_from_device_upload_or_via_camera_in_realtime"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimen_12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleTV" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
