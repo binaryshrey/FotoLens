@@ -6,4 +6,6 @@
     <string name="fotolens">FotoLens</string>
     <string name="get_started">Get Started</string>
     <string name="bgimageview">bgImageView</string>
+    <string name="capture">Capture</string>
+    <string name="capturedimageview">capturedImageView</string>
 </resources>
