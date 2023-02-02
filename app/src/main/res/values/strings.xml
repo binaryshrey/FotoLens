@@ -2,7 +2,7 @@
     <string name="app_name">FotoLens</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="an_app_to_demonstrate_the_process_of_cropping_and_image_obtained_from_device_upload_or_via_camera_in_realtime">An app to demonstrate the process of cropping and image obtained from device upload or via camera in realtime</string>
+    <string name="an_app_to_demonstrate_the_process_of_cropping_and_image_obtained_from_device_upload_or_via_camera_in_realtime">An app to demonstrate the process of cropping an image obtained from device upload or via camera click in realtime</string>
     <string name="fotolens">FotoLens</string>
     <string name="get_started">Get Started</string>
     <string name="bgimageview">bgImageView</string>
